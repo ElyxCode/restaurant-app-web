@@ -1,0 +1,31 @@
+import {
+  db,
+  storage,
+  ref,
+  getDownloadURL,
+  uploadBytesResumable,
+  collection,
+  addDoc,
+  getDocs,
+  onSnapshot,
+  doc,
+  query,
+  updateDoc,
+  where,
+} from "./firebase";
+
+export {
+  db,
+  storage,
+  ref,
+  getDownloadURL,
+  uploadBytesResumable,
+  collection,
+  addDoc,
+  getDocs,
+  onSnapshot,
+  doc,
+  query,
+  updateDoc,
+  where,
+};
